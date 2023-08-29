@@ -9,20 +9,22 @@ const Cta = () => {
  
   <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
     <div>
-      <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Mechgrow <span className="text-green-600">India</span></h1>
-      <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">Discover Mech Grow India - your premier source for industrial equipment solutions. Specializing in cutting-edge machinery, we drive productivity and growth across sectors. Embrace innovation with us and elevate your business today.</p>
+      <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight">Mechgrow <span className="text-green-600">India</span></h1>
+      <p className="mt-3 text-lg text-gray-800">Discover Mech Grow India - your premier source for industrial equipment solutions. Specializing in cutting-edge machinery, we drive productivity and growth across sectors. Embrace innovation with us and elevate your business today.</p>
+      <p className="mt-3 text-lg text-green-600 font-extrabold">All Industrial Equipments Supply</p>
 
 
       <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-        <Link className="inline-flex justify-center items-center gap-x-3 text-center bg-green-600 hover:bg-amber-400 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="https://wa.link/rdh2sc">
+        <Link className="inline-flex justify-center items-center gap-x-3 text-center bg-green-600 hover:bg-amber-400 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4" href="https://wa.link/rdh2sc">
           Book Now
           <svg className="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </Link>
-        <Link className="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800" href="https://wa.link/rdh2sc">
+        <Link className="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 " href="https://wa.link/rdh2sc">
           Contact sales team
         </Link>
+        
       </div>
    
 
@@ -49,7 +51,7 @@ const Cta = () => {
           </div>
 
           <p className="mt-3 text-sm text-gray-800 dark:text-gray-200">
-            <span className="font-bold">4.6</span> /5 - from 12k reviews
+            <span className="font-bold">4.6</span> /5 - from 12k reviews 
           </p>
 
           <div className="mt-5">
@@ -78,11 +80,11 @@ const Cta = () => {
 
     <div className="relative ml-4">
       <Image className="w-full rounded-md" src="/smt1.png" alt="Image Description" width={1920} height={1280}/>
-      <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 mr-4 -ml-4 lg:mt-6 lg:-mb-6 lg:mr-6 lg:-ml-6 dark:from-slate-800 dark:via-slate-900/0 dark:to-slate-900/0"></div>
+      <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 mr-4 -ml-4 lg:mt-6 lg:-mb-6 lg:mr-6 lg:-ml-6"></div>
 
 
       <div className="absolute bottom-0 left-0">
-        <svg className="w-2/3 ml-auto h-auto text-white dark:text-slate-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-2/3 ml-auto h-auto text-white" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="531" y="352" width="99" height="99" fill="currentColor"/>
           <rect x="140" y="352" width="106" height="99" fill="currentColor"/>
           <rect x="482" y="402" width="64" height="49" fill="currentColor"/>
