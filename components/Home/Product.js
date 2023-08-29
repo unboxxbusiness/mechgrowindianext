@@ -17,7 +17,7 @@ const Product = () => {
           <Link href="/product"><Image className="rounded-full sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto" src="/indi.png" alt="Image Description" width={1920} height={1280}/></Link>   
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-            Digital Indicator
+            Component Counting Machine
             </h3>
            
           </div>
